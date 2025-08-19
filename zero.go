@@ -8,7 +8,7 @@ package dgo
 import (
 	"context"
 
-	apiv2 "github.com/dgraph-io/dgo/v250/protos/api.v2"
+	apiv2 "github.com/vedadiyan/dgo/v250/protos/api.v2"
 )
 
 // AllocateUIDs allocates a given number of Node UIDs in the Graph and returns a start and end UIDs,

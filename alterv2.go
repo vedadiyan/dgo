@@ -8,7 +8,7 @@ package dgo
 import (
 	"context"
 
-	apiv2 "github.com/dgraph-io/dgo/v250/protos/api.v2"
+	apiv2 "github.com/vedadiyan/dgo/v250/protos/api.v2"
 )
 
 func (d *Dgraph) DropAllNamespaces(ctx context.Context) error {

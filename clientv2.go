@@ -20,8 +20,8 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"
 
-	"github.com/dgraph-io/dgo/v250/protos/api"
-	apiv2 "github.com/dgraph-io/dgo/v250/protos/api.v2"
+	"github.com/vedadiyan/dgo/v250/protos/api"
+	apiv2 "github.com/vedadiyan/dgo/v250/protos/api.v2"
 )
 
 const (

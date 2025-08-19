@@ -12,7 +12,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/dgraph-io/dgo/v250/protos/api"
+	"github.com/vedadiyan/dgo/v250/protos/api"
 )
 
 type School struct {

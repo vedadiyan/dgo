@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgo/v250"
-	"github.com/dgraph-io/dgo/v250/protos/api"
+	"github.com/vedadiyan/dgo/v250"
+	"github.com/vedadiyan/dgo/v250/protos/api"
 )
 
 var (

@@ -22,8 +22,8 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/dgraph-io/dgo/v250/protos/api"
-	apiv2 "github.com/dgraph-io/dgo/v250/protos/api.v2"
+	"github.com/vedadiyan/dgo/v250/protos/api"
+	apiv2 "github.com/vedadiyan/dgo/v250/protos/api.v2"
 )
 
 const (

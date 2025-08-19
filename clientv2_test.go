@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgo/v250"
+	"github.com/vedadiyan/dgo/v250"
 )
 
 // This test only ensures that connection strings are parsed correctly.
