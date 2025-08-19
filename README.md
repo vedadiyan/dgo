@@ -49,14 +49,8 @@ repository.**
 
 ## Supported Versions
 
-Depending on the version of Dgraph that you are connecting to, you will have to use a different
-version of this client and their corresponding import paths.
-
 | Dgraph version | dgo version | dgo import path                 |
 | -------------- | ----------- | ------------------------------- |
-| dgraph 23.X.Y  | dgo 230.X.Y | "github.com/vedadiyan/dgo/v230" |
-| dgraph 24.X.Y  | dgo 240.X.Y | "github.com/vedadiyan/dgo/v240" |
-| dgraph 25.X.Y  | dgo 240.X.Y | "github.com/vedadiyan/dgo/v240" |
 | dgraph 25.X.Y  | dgo 250.X.Y | "github.com/vedadiyan/dgo/v250" |
 
 ## v2 APIs
