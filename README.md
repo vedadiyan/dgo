@@ -1,4 +1,4 @@
-# dgo [![GoDoc](https://pkg.go.dev/badge/github.com/dgraph-io/dgo)](https://pkg.go.dev/github.com/dgraph-io/dgo/v250)
+# dgo [![GoDoc](https://pkg.go.dev/badge/github.com/vedadiyan/dgo)](https://pkg.go.dev/github.com/vedadiyan/dgo/v250)
 
 Official Dgraph Go client which communicates with the server using [gRPC](https://grpc.io/).
 
@@ -54,10 +54,10 @@ version of this client and their corresponding import paths.
 
 | Dgraph version | dgo version | dgo import path                 |
 | -------------- | ----------- | ------------------------------- |
-| dgraph 23.X.Y  | dgo 230.X.Y | "github.com/dgraph-io/dgo/v230" |
-| dgraph 24.X.Y  | dgo 240.X.Y | "github.com/dgraph-io/dgo/v240" |
-| dgraph 25.X.Y  | dgo 240.X.Y | "github.com/dgraph-io/dgo/v240" |
-| dgraph 25.X.Y  | dgo 250.X.Y | "github.com/dgraph-io/dgo/v250" |
+| dgraph 23.X.Y  | dgo 230.X.Y | "github.com/vedadiyan/dgo/v230" |
+| dgraph 24.X.Y  | dgo 240.X.Y | "github.com/vedadiyan/dgo/v240" |
+| dgraph 25.X.Y  | dgo 240.X.Y | "github.com/vedadiyan/dgo/v240" |
+| dgraph 25.X.Y  | dgo 250.X.Y | "github.com/vedadiyan/dgo/v250" |
 
 ## v2 APIs
 
@@ -486,7 +486,7 @@ res, err := txn.Mutate(ctx, mu)
 ```
 
 For a more complete example, see
-[Example](https://pkg.go.dev/github.com/dgraph-io/dgo#example-package-SetObject).
+[Example](https://pkg.go.dev/github.com/vedadiyan/dgo#example-package-SetObject).
 
 Sometimes, you only want to commit a mutation, without querying anything further. In such cases, you
 can use `mu.CommitNow = true` to indicate that the mutation must be immediately committed.
