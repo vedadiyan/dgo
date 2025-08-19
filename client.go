@@ -151,10 +151,10 @@ func (d *Dgraph) login(ctx context.Context, userid string, password string,
 // GetJwt returns back the JWT for the dgraph client.
 //
 // Deprecated
-func (d *Dgraph) GetJwt() api.Jwt {
+func (d *Dgraph) GetJwt() *api.Jwt {
 	d.jwtMutex.RLock()
 	defer d.jwtMutex.RUnlock()
-	return d.jwt
+	return &d.jwt
 }
 
 // Login logs in the current client using the provided credentials into
